@@ -1,0 +1,15 @@
+{
+  "uid": "a1b2c3d4e5",
+  "recipient": {
+    "identity": "jonathan.rivalan@gmail.com",
+    "type": "email",
+    "hashed": false
+  },
+  "issuedOn":  1388534400,
+  "badge": "https://jonriv.github.io/openbadges-easy-tutorial/json/openbadges-easy-badge-class.json",
+  "verify": {
+    "type": "hosted",
+    "url": "https://jonriv.github.io/openbadges-easy-tutorial/json/openbadges-easy-badge-award.json"
+  },
+  "image":"https://jonriv.github.io/openbadges-easy-tutorial/img/openbadges-easy-badge-image.png"
+}

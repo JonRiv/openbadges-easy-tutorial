@@ -1,0 +1,7 @@
+{
+    "name": "Open Badges Easy Badge",
+    "description": "A badge earned for following the steps described in the Open Badge Easy Tutorial.",
+    "image": "https://jonriv.github.io/openbadges-easy-tutorial/img/openbadges-easy-badge-image.png",
+    "criteria": "https://jonriv.github.io/openbadges-easy-tutorial/badges-criterias.html",
+    "issuer": "https://jonriv.github.io/openbadges-easy-tutorial/json/openbadges-easy-badge-issuer.json"
+}
