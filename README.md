@@ -27,7 +27,7 @@ Basically you, or your organisation : the one that will deliver the badge.
 }
 ```
 
-Documentation : 
+Save the file as _your-badge-issuer.json_
 
 ## Step2 : Defining the badge class
 Basically, the definition for the badge that you want to award, including criterias, image and issuer.
@@ -42,7 +42,7 @@ Basically, the definition for the badge that you want to award, including criter
 }
 ```
 
-Documentation :
+Save the file as _your-badge-class.json_
 
 ## Step3 : Defining the badge assertion
 This is the "real" badge that you will "physically" deliver. It should be unique for each awardee you grant it to. Exists in at least 2 forms : /*to complete*/
@@ -66,15 +66,17 @@ _Note_ : Although it is specified the "image" option is optionnal, I couldn't va
   "image":"insert the url to the badge image"
 }
 ```
+Save the file as _your-badge-award.json_
 
 ## Step 4 : Uploading and validating
 In order to validate the badge assertion schema, you need your ressources to be online. Easyer way to do so, is to actually :
 
 1. fork this repo on your account
 2. activate [Github pages](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) for the fork
-3. modify the paths in the 3 .json badge files with the Github pages url
+3. modify the paths in your 3 .json badge files accordingly to your Github pages site
 4. add them to the /json folder
-5. Push :)
+5. add your badge infos in the [badges criterias page](https://jonriv.github.io/openbadges-easy-tutorial/badges-criterias.html)
+6. Push :)
 
 Once your done, you can submit your assertion structure here for validation :
 
